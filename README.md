@@ -92,6 +92,9 @@ response = requests.post(url, json=data, headers=headers)
 print(response.json())
 ```
 
+### Testing via postman 
+[postman webversion](https://web.postman.co/workspace/My-Workspace~033722f5-7df0-48d8-8e76-3c5771a8bbe3/overview)
+
 ## Notes
 - Ensure that the Hugging Face model is correctly uploaded and accessible.
 - The Groq API key must be valid to access Llama 3.
